@@ -76,8 +76,8 @@ The following data quality issues were identified and resolved:
 
 | Column | Method Used | Reason |
 |----------|------------|--------|
-| Income    | Mean | Approximately normally distributed |
-| Credit Score | Mean | Approximately normally distributed |
+| Income    | median | 7.8% missing values|
+| Credit Score | Mean |5.8% missing values |
 | Loan Balance | Median | Slightly skewed distribution |
 
 ---
@@ -145,22 +145,22 @@ Pipeline Components:
 
 | Metric | Score |
 |---------|--------|
-| Accuracy | **54.67%** |
-| ROC-AUC | **0.403** |
+| Accuracy | **8%** |
+| ROC-AUC | **0.461** |
 
 Classification Report:
 
 | Class | Precision | Recall | F1 Score |
 |--------|-----------|---------|----------|
-| Non-Delinquent | 0.82 | 0.60 | 0.69 |
-| Delinquent | 0.12 | 0.29 | 0.17 |
+| Non-Delinquent | 0.85 | 0.61 | 0.71 |
+| Delinquent | 0.17 | 0.42 | 0.24 |
 
 ### Confusion Matrix
 
 | | Predicted 0 | Predicted 1 |
 |------|-----------|-----------|
-| Actual 0 | 75 | 51 |
-| Actual 1 | 17 | 7 |
+| Actual 0 | 77 | 49 |
+| Actual 1 | 14 | 10 |
 
 ---
 
