@@ -145,7 +145,7 @@ Pipeline Components:
 
 | Metric | Score |
 |---------|--------|
-| Accuracy | **8%** |
+| Accuracy | **58%** |
 | ROC-AUC | **0.461** |
 
 Classification Report:
